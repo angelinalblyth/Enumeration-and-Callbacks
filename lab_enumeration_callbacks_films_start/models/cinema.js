@@ -50,9 +50,16 @@ Cinema.prototype.getRuntimeForAllFilms = function(films){
   })
   return runtime;
 }
+//Reduce method
+// Cinema.prototype.getRuntimeForAllFilms = function () {
+//   return this.films.reduce(function(accumulator, film){
+//     return accumulator + film.length;
+//   }, 0)
+// };
+
 
 Cinema.prototype.filmsByProperty = function(property, value){
-  
+
 }
 
 module.exports = Cinema;
